@@ -1,0 +1,16 @@
+Level Design - Lyall McClue
+[concept design for the level]
+This concept design for the level shows four playable areas that consists of The Lab, Village, Facility, and The Forest. Each area will offer a different experience via the environment some will be close and compact and other areas will be open and free for the player to use to the advantage or for their playstyle. Each area will offer their own unique perk granting their own buff to the player upon purchase, but they only become purchasable after the power has been activated. 
+
+The Lab;
+The Lab is the starting place for the outbreak so it will function as starting point for the game it will hold [perk & description of the perk]. The appearance of the lab will appear broken and in ruin to make the player feel emersed upon loading in the level 
+
+Village;
+The village is the second area that the player will have to explore to fix the power as it will hold one of two fuses as it will be required to turn back on. The village will have the perk [perk & description]. The appearance of the village will appear untouched by the outbreak at first glance upon entry but as the player moves through the environment which will get increasingly more destroyed and in ruin 
+
+Facility;
+The Facility is the third area of the game and is mostly untouched and deserted as most of the staff and soldiers retreated to the village to either face and fight the undead until they succumb to their demise or to retreat to safety. The facility holds the power in the level which the player has to obtain all fuses from there dedicated areas and once both fuses are obtained the player will have to go up to the second floor of the facility where the power switch can be repaired restoring power to the level. This area has the perk [perk & description]. The facility will also hold [name for the weapon machine] which will upgrade the players weapon giving it increased damage and ammo size, [name for the weapon machine] can be located in the same room as power on the second floor. 
+
+Forest;
+The forest is the fourth and final area of the game that is designed to be the opposite/contrast of the death and destruction that you'll see throughout the level by being full of life and creation. This area is going to have the perk [perk &description]. It will also hold one of the locations of the fuses which is required for power and progression.
+
