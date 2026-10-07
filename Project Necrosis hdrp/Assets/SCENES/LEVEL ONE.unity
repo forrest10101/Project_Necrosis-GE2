@@ -682,7 +682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1396231508
 Transform:
   m_ObjectHideFlags: 0
@@ -948,13 +948,14 @@ GameObject:
   - component: {fileID: 1614806739}
   - component: {fileID: 1614806738}
   - component: {fileID: 1614806737}
+  - component: {fileID: 1614806740}
   m_Layer: 0
   m_Name: AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1614806736
 Transform:
   m_ObjectHideFlags: 0
@@ -1044,6 +1045,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614806735}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1614806740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614806735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2dec1111210a904482c22bf489233a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireRate: 0.01
+  Bullet: {fileID: 5261679341121668536, guid: 9d29f52edbc9eca4d8070d4a56977bc6, type: 3}
+  BulletPoint: {fileID: 44433120}
 --- !u!1 &1824570857
 GameObject:
   m_ObjectHideFlags: 0
