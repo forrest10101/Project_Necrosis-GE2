@@ -52,8 +52,10 @@ public class Pistol : MonoBehaviour
             }
 
             FireTime = Time.time + FireRate;
-            Fire.Play();
-            CurrentAmmo--;
+            //Fire.Play();
+            CurrentAmmo -= 1;
+
+            UnityEngine.Debug.Log("Upgraded- ammo" + CurrentAmmo);
         }
     }
 

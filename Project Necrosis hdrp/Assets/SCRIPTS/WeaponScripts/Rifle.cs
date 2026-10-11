@@ -9,7 +9,7 @@ public class Rifle : MonoBehaviour
     private int CurrentAmmo = 12;
     private int MaxAmmo = 12 ;
     private int Ammo = 999 ;
-    public float FireRate = 0.01f;
+    public float FireRate = 0.3f;
     private float FireTime = 0f;
     private float Damage = 2f;
     private bool Upgraded = false;
@@ -52,7 +52,7 @@ public class Rifle : MonoBehaviour
             }
 
             FireTime = Time.time + FireRate;
-            Fire.Play();
+            //Fire.Play();
             CurrentAmmo--;
         }
     }
