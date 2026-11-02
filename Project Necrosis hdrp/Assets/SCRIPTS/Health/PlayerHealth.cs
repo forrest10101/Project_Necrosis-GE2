@@ -13,8 +13,10 @@ public class PlayerHealth : MonoBehaviour
     private bool GodMode = false;
     public Slider healthBar;
     private float NextRegen = 0f;
-    private float Regen = 5f;
+    private float RegenCD = 1f;
     private float RegenRate = 1f;
+    private float CombatCD= 5f;
+    private float CombatLock = 0f;
 
 
     private void Awake()
@@ -52,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
         {
             CurrentHealth -= Damage;
             NextDamage = Time.time + Iframe;
+            CombatLock = Time.time + CombatCD;
             HealthBar();
 
             if (CurrentHealth <= 0)
@@ -81,9 +84,11 @@ public class PlayerHealth : MonoBehaviour
 
     void Regeneration()
     {
-        if (Time.time >= NextRegen && CurrentHealth < MaxHealth)
+
+       
+        if (Time.time >= NextRegen && CurrentHealth < MaxHealth && Time.time >= CombatLock)
         {
-            NextRegen = Time.time + Regen;
+            NextRegen = Time.time + RegenCD;
             CurrentHealth += RegenRate;
 
             CurrentHealth = Mathf.Clamp(
