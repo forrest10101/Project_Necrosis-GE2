@@ -93,4 +93,9 @@ public class ButtonCode : MonoBehaviour,
             SceneManager.LoadSceneAsync(nextScene);                                                     // Else, load like normal
         }
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();                                                                             // Close game
+    }
 }

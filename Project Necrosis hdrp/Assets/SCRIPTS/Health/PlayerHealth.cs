@@ -70,7 +70,9 @@ public class PlayerHealth : MonoBehaviour
 
     void fail()
     {
-        SceneManager.LoadScene("MENU");
+        SceneManager.LoadScene("GAMEOVER");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     void HealthBar()
