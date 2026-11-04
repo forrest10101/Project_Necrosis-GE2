@@ -1,22 +1,34 @@
 using UnityEngine;
 using TMPro;
-
+using System.Diagnostics;
 
 public class PointsManager : MonoBehaviour
 {
-    public int Points = 0;
-    public TextMeshProUGUI PointsText;
+    public static PointsManager Instance;
 
-    void awake()
+    public int Points = 0;
+    public UIManager uiManager;
+
+
+    private void Awake()
     {
-        PointsText.text = Points.ToString();
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void AddPoints(int amount)
     {
         Points += amount;
 
-        PointsText.text = Points.ToString();
+
+        uiManager.UpdatePoints(Points);
+
     }
 
     public void RemovePoints(int amount)
@@ -29,7 +41,7 @@ public class PointsManager : MonoBehaviour
 
         }
 
-        PointsText.text = Points.ToString();
+        uiManager.UpdatePoints(Points);
     }
     
 }

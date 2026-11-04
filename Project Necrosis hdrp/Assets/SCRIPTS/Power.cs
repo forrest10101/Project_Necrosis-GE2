@@ -5,7 +5,7 @@ public class Power : MonoBehaviour
 {
     public static Power Instance;
 
-    private bool PowerOn = false;
+    public bool PowerOn = false;
     private bool PlayerNearby = false;
     private int Fuses = 0;
 

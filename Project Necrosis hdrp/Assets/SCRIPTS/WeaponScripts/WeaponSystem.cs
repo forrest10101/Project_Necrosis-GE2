@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class WeaponSystem : MonoBehaviour
@@ -5,7 +6,7 @@ public class WeaponSystem : MonoBehaviour
     public static WeaponSystem Instance;
     public bool[] Unlocked = { true, false, false };
     public GameObject[] Weapons = new GameObject[3];
-
+    public int Equipped = 0;
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class WeaponSystem : MonoBehaviour
         }
 
         Weapons[weapon].SetActive(true);
-
+        Equipped = weapon;
     }
 
 

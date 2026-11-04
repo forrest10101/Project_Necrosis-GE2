@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using System.Diagnostics;
 
 public class BulletScript : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class BulletScript : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, lifeTime);
+        
     }
 
     void Update()
@@ -29,7 +30,7 @@ public class BulletScript : MonoBehaviour
 
         if (health != null)
         {
-           // health.TakeDamage(Damage);
+            health.EnemyDamage(Damage);
             
         }
         Destroy(gameObject);

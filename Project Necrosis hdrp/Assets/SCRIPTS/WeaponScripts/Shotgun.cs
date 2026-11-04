@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Shotgun : MonoBehaviour
 {
+    public static Shotgun Instance;
 
     private int CurrentAmmo = 12;
     private int MaxAmmo = 12;
@@ -15,6 +16,12 @@ public class Shotgun : MonoBehaviour
     public Transform BulletPoint;
     private bool Reloading = false;
     AudioSource Fire;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
 
     void Start()
     {
@@ -108,7 +115,8 @@ public class Shotgun : MonoBehaviour
     {
         Damage += 1;
         MaxAmmo += 24;
+        Upgraded = true;
 
-        //Debug.Log("Upgraded- ammo" + MaxAmmo + " Damage: " + Damage);
+        UnityEngine.Debug.Log("Upgraded- ammo" + MaxAmmo + " Damage: " + Damage);
     }
 }

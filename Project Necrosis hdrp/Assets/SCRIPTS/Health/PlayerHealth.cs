@@ -46,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
 
 
 
-    public void PlayerDamage(int Damage)
+    public void PlayerDamage(float Damage)
     {
 
 
