@@ -13,12 +13,30 @@ public class EnemyHealth : MonoBehaviour
 
     private void Awake()
     {
+        if (CompareTag("NormZombie"))
+        {
+            MaxHealth = 10;
+            PointWorth = 25;
+        }
+
+        else if (CompareTag("UpgradeZombie"))
+        {
+            MaxHealth = 15;
+            PointWorth = 50;
+        }
+
+        else if (CompareTag("TankZombie"))
+        {
+            MaxHealth = 35;
+            PointWorth = 150;
+        }
+
         CurrentHealth = MaxHealth;
     }
 
     void Update()
     {
- 
+        
     }
 
 
