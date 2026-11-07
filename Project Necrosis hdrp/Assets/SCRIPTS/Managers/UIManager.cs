@@ -9,6 +9,9 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI objectiveText;
     public TextMeshProUGUI interactText;
     public TextMeshProUGUI pointText;
+    public TextMeshProUGUI roundText;
+    public TextMeshProUGUI ammoText;
+    public TextMeshProUGUI weaponText;
 
 
     void Start()
@@ -43,4 +46,24 @@ public class UIManager : MonoBehaviour
         if (interactText != null)
             interactText.text = "";
     }
+
+    public void SetRoundText(int Round)
+    {
+        if (roundText != null)
+            roundText.text = ("Round: " + Round);
+    }
+
+    public void WeaponDisplay(string Weapon)
+    {
+        if (weaponText != null)
+            weaponText.text = ("Weapon: " + Weapon);
+    }
+
+    public void SetAmmoText(int currentAmmo, int maxAmmo)
+    {
+        if (ammoText != null)
+            ammoText.text = (currentAmmo + " / " + maxAmmo);
+    }
+
+
 }

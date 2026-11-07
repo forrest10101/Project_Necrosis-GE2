@@ -12,11 +12,12 @@ public class Rifle : MonoBehaviour
     private int Ammo = 999 ;
     public float FireRate = 0.3f;
     private float FireTime = 0f;
-    private float Damage = 2f;
+    private float Damage = 8f;
     private bool Upgraded = false;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;
+    public UIManager uiManager;
     AudioSource Fire;
 
     private void Awake()
@@ -24,6 +25,11 @@ public class Rifle : MonoBehaviour
         Instance = this;
     }
 
+    private void OnEnable()
+    {
+        uiManager.WeaponDisplay("Assualt Rifle");
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
+    }
 
     void Start()
     {
@@ -61,6 +67,8 @@ public class Rifle : MonoBehaviour
             FireTime = Time.time + FireRate;
             //Fire.Play();
             CurrentAmmo--;
+
+            uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
         }
     }
 
@@ -93,6 +101,8 @@ public class Rifle : MonoBehaviour
         CurrentAmmo = MaxAmmo;
 
         Reloading = false;
+
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
     }
 
 

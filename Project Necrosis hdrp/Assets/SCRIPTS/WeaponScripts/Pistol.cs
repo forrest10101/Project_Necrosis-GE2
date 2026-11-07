@@ -12,16 +12,24 @@ public class Pistol : MonoBehaviour
     private int Ammo = 999 ;
     public float FireRate = 1.5f;
     private float FireTime = 0f;
-    private float Damage = 2f;
+    private float Damage = 2.5f;
     private bool Upgraded = false;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;
+    public UIManager uiManager;
+
     AudioSource Fire;
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void OnEnable()
+    {
+        uiManager.WeaponDisplay("Pistol");
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
     }
 
 
@@ -62,7 +70,9 @@ public class Pistol : MonoBehaviour
             //Fire.Play();
             CurrentAmmo -= 1;
 
-            UnityEngine.Debug.Log("Upgraded- ammo" + CurrentAmmo);
+            uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
+
+            
         }
     }
 
@@ -95,6 +105,8 @@ public class Pistol : MonoBehaviour
         CurrentAmmo = MaxAmmo;
 
         Reloading = false;
+
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
     }
 
 

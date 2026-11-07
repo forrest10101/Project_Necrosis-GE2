@@ -10,11 +10,12 @@ public class Shotgun : MonoBehaviour
     private int Ammo = 999;
     public float FireRate = 1.5f;
     private float FireTime = 0f;
-    private float Damage = 2f;
+    private float Damage = 5f;
     private bool Upgraded = false;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;
+    public UIManager uiManager;
     AudioSource Fire;
 
     private void Awake()
@@ -22,6 +23,11 @@ public class Shotgun : MonoBehaviour
         Instance = this;
     }
 
+    private void OnEnable()
+    {
+        uiManager.WeaponDisplay("Shotgun");
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
+    }
 
     void Start()
     {
@@ -45,9 +51,9 @@ public class Shotgun : MonoBehaviour
 
             for (int i = 0; i < 5; i++)
             {
-                float RotationX = Random.Range(-10f, 10f);
-                float RotationY = Random.Range(-10f, 10f);
-                float RotationZ = Random.Range(-10f, 10f);
+                float RotationX = Random.Range(-7.5f, 7.5f);
+                float RotationY = Random.Range(-7.5f, 7.5f);
+                float RotationZ = Random.Range(-7.5f, 7.5f);
 
 
                 GameObject spawnedBullet = Instantiate(
@@ -75,7 +81,7 @@ public class Shotgun : MonoBehaviour
             //Fire.Play();
             CurrentAmmo -= 1;
 
-            UnityEngine.Debug.Log("Upgraded- ammo" + CurrentAmmo);
+            uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
         }
     }
 
@@ -108,6 +114,8 @@ public class Shotgun : MonoBehaviour
         CurrentAmmo = MaxAmmo;
 
         Reloading = false;
+
+        uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
     }
 
 

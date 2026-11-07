@@ -20,6 +20,18 @@ public class ZombieAI : MonoBehaviour
 
     void Start()
     {
+        if (CompareTag("NormZombie"))
+        {
+            Damage = 3;
+            speed = 4f;
+        }
+
+        else if (CompareTag("UpgradeZombie"))
+        {
+            Damage = 5;
+            speed = 5.8f;
+        }
+
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
         agent.stoppingDistance = attackRange;

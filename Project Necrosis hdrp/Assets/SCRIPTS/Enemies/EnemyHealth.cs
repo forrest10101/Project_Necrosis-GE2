@@ -9,13 +9,13 @@ public class EnemyHealth : MonoBehaviour
     private float NextDamage = 0f;
     private int PointWorth = 5;
 
-
+    
 
     private void Awake()
     {
         if (CompareTag("NormZombie"))
         {
-            MaxHealth = 10;
+            MaxHealth = 8;
             PointWorth = 25;
         }
 
@@ -32,13 +32,11 @@ public class EnemyHealth : MonoBehaviour
         }
 
         CurrentHealth = MaxHealth;
-    }
 
-    void Update()
-    {
         
     }
 
+    
 
 
     public void EnemyDamage(float Damage)
@@ -54,7 +52,7 @@ public class EnemyHealth : MonoBehaviour
 
             if (CurrentHealth <= 0)
             {
-                
+                RoundManager.Instance.ZombieDied();
                 PointsManager.Instance.AddPoints(PointWorth);
                 Destroy(gameObject);
             }
