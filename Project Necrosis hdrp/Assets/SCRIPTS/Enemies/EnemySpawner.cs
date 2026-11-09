@@ -4,6 +4,9 @@ using System.Collections;
 using System.Diagnostics;
 using UnityEngine;
 
+
+
+//EnemySpawner, Written by Andrew Forrest and Lyall McClue
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Enemy Prefabs")]
@@ -24,6 +27,8 @@ public class EnemySpawner : MonoBehaviour
 
     private int zombiesToSpawn;
     private int currentRound;
+
+    private float healthMultiplier;
 
 
 
@@ -62,11 +67,14 @@ public class EnemySpawner : MonoBehaviour
     }
 
     public void SetRoundStats(
-        int round,
+        int round, 
+        float hpMultiplier,
         int amount)
     {
         currentRound = round;
         zombiesToSpawn = amount;
+        healthMultiplier = hpMultiplier;
+
 
         if (spawnRoutine != null)
         {
@@ -99,7 +107,7 @@ public class EnemySpawner : MonoBehaviour
                 Quaternion.identity
             );
 
-            
+            ApplyRoundScaling(enemy);
 
             yield return new WaitForSeconds(0.5f);
         }
@@ -120,5 +128,21 @@ public class EnemySpawner : MonoBehaviour
         return zombiePrefab;
     }
 
-    
+    private void ApplyRoundScaling(GameObject enemy)
+    {
+        EnemyHealth health = enemy.GetComponent<EnemyHealth>();
+       
+
+        float healthScale = Mathf.Pow(healthMultiplier, currentRound - 1);
+       
+
+        if (health != null)
+        {
+            health.MaxHealth *= healthScale;
+        }
+
+        
+    }
+
+
 }

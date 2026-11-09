@@ -1,6 +1,7 @@
 using Microsoft.Win32;
 using UnityEngine;
 
+//Fuses, Written by Andrew Forrest
 public class Fuses : MonoBehaviour
 {
 

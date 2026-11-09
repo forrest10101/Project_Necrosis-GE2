@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Threading;
 using UnityEngine;
 
+
+//Pistol, Written by Andrew Forrest
 public class Pistol : MonoBehaviour
 {
     public static Pistol Instance;
@@ -13,7 +15,6 @@ public class Pistol : MonoBehaviour
     public float FireRate = 1.5f;
     private float FireTime = 0f;
     private float Damage = 2.5f;
-    private bool Upgraded = false;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;
@@ -112,9 +113,9 @@ public class Pistol : MonoBehaviour
 
     public void Upgrader()
     {
-        Damage += 1;
-        MaxAmmo += 24;
-        Upgraded = true;
+        Damage = Damage * 1.25f;
+        MaxAmmo = MaxAmmo * 2;
+        
 
         UnityEngine.Debug.Log("Upgraded- ammo" + MaxAmmo + " Damage: " + Damage);
     }

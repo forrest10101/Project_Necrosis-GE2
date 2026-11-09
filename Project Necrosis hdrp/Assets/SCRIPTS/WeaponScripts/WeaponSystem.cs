@@ -1,6 +1,8 @@
-
 using UnityEngine;
 
+
+
+//WeaponSystem, Written by Andrew Forrest
 public class WeaponSystem : MonoBehaviour
 {
     public static WeaponSystem Instance;

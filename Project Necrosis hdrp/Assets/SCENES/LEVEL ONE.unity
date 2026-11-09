@@ -3520,6 +3520,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.735849
       objectReference: {fileID: 0}
+    - target: {fileID: 8350784385862534970, guid: 691d201409042b143af4574240386e30, type: 3}
+      propertyPath: m_text
+      value: 'Points: 500'
+      objectReference: {fileID: 0}
     - target: {fileID: 8664276991893216452, guid: 691d201409042b143af4574240386e30, type: 3}
       propertyPath: m_Color.b
       value: 0.9245283
@@ -26487,6 +26491,7 @@ MonoBehaviour:
   uiManager: {fileID: 1090437071}
   maxZombiesPerRound: 100
   maxZombiesInScene: 50
+  healthMultiplier: 1.2
   maxActiveSpawners: 3
   timeBetweenRounds: 5
 --- !u!1001 &7112361916034037839

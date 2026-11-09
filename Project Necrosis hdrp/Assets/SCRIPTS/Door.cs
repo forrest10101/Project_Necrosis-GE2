@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
+//Door, Written by Andrew Forrest and Lyall McClue
 public class DoorPurchase : MonoBehaviour
 {
     [Header("Door")]

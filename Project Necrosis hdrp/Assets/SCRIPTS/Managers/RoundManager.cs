@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
+
+//RoundManager, Written by Andrew Forrest and Lyall McClue
 public class RoundManager : MonoBehaviour
 {
     public static RoundManager Instance;
@@ -20,6 +22,9 @@ public class RoundManager : MonoBehaviour
     [Header("Zombie Caps")]
     public int maxZombiesPerRound = 100;
     public int maxZombiesInScene = 50;
+
+    [Header("Difficulty Scaling")]
+    public float healthMultiplier = 1.2f;
 
     [Header("Spawner Selection")]
     public int maxActiveSpawners = 3;
@@ -76,6 +81,7 @@ public class RoundManager : MonoBehaviour
 
             spawner.SetRoundStats(
                 currentRound,
+                healthMultiplier,
                 amount
             );
         }

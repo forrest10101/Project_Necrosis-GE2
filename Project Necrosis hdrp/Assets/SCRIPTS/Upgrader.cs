@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Diagnostics;
 using Microsoft.Win32;
 
-
+//Upgrader, Written by Andrew Forrest
 public class Upgrader : MonoBehaviour
 {
     public WeaponSystem weaponSystem;

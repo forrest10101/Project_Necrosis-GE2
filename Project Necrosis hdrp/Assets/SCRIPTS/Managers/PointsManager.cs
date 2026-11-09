@@ -2,6 +2,9 @@ using UnityEngine;
 using TMPro;
 using System.Diagnostics;
 
+
+//PointsManager, Written by Andrew Forrest
+
 public class PointsManager : MonoBehaviour
 {
     public static PointsManager Instance;
@@ -20,6 +23,8 @@ public class PointsManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        uiManager.UpdatePoints(Points);
     }
 
     public void AddPoints(int amount)

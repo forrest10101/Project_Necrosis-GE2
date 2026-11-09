@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Diagnostics;
+using Microsoft.Win32;
 
+//BulletScript, Written by Andrew Forrest
 public class BulletScript : MonoBehaviour
 {
     private float speed = 20f;
@@ -23,6 +25,9 @@ public class BulletScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.CompareTag("Bullet"))
+            return;
+
         UnityEngine.Debug.Log("col");
         EnemyHealth health = collision.gameObject.GetComponent<EnemyHealth>();
 

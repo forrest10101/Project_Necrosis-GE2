@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 using System.Diagnostics;
 using UnityEngine.UI;
 
+
+//PlayerHealth, Written by Andrew Forrest
 public class PlayerHealth : MonoBehaviour
 {
     private float MaxHealth = 20f;

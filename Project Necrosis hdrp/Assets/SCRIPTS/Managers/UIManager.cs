@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-
+//UIManager, Written by Andrew Forrest
 public class UIManager : MonoBehaviour
 {
 
@@ -18,7 +18,7 @@ public class UIManager : MonoBehaviour
     {
         SetObjective("Find both fuses");
         ClearInteractText();
-        UpdatePoints(0);
+        
     }
 
     public void UpdatePoints(int Point)

@@ -1,17 +1,20 @@
 using UnityEngine;
 using System.Collections;
 
+
+
+//Shotgun, Written by Andrew Forrest
+
 public class Shotgun : MonoBehaviour
 {
     public static Shotgun Instance;
 
-    private int CurrentAmmo = 12;
-    private int MaxAmmo = 12;
+    private int CurrentAmmo = 8;
+    private int MaxAmmo = 8;
     private int Ammo = 999;
     public float FireRate = 1.5f;
     private float FireTime = 0f;
-    private float Damage = 5f;
-    private bool Upgraded = false;
+    private float Damage = 4f;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;
@@ -121,9 +124,8 @@ public class Shotgun : MonoBehaviour
 
     public void Upgrader()
     {
-        Damage += 1;
-        MaxAmmo += 24;
-        Upgraded = true;
+        Damage = Damage * 1.25f;
+        MaxAmmo = MaxAmmo * 2;
 
         UnityEngine.Debug.Log("Upgraded- ammo" + MaxAmmo + " Damage: " + Damage);
     }

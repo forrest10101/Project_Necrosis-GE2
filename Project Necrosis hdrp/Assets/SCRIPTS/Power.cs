@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using UnityEngine;
 
+
+//Power, Written by Andrew Forrest
 public class Power : MonoBehaviour
 {
     public static Power Instance;

@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+
+//ZombieAI, Written by Andrew Forrest
 [RequireComponent(typeof(NavMeshAgent))]
 public class ZombieAI : MonoBehaviour
 {

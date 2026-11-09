@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Diagnostics;
 
+
+
+//EnemyHealth, Written by Andrew Forrest
 public class EnemyHealth : MonoBehaviour
 {
-    private float MaxHealth = 20f;
+    public float MaxHealth = 20f;
     private float CurrentHealth;
-    private float Iframe = 1f;
-    private float NextDamage = 0f;
     private int PointWorth = 5;
 
     
@@ -42,21 +43,15 @@ public class EnemyHealth : MonoBehaviour
     public void EnemyDamage(float Damage)
     {
 
-
-        if (Time.time >= NextDamage)
+        CurrentHealth -= Damage;
+           
+        if (CurrentHealth <= 0)
         {
-            CurrentHealth -= Damage;
-            NextDamage = Time.time + Iframe;
-            
-
-
-            if (CurrentHealth <= 0)
-            {
-                RoundManager.Instance.ZombieDied();
-                PointsManager.Instance.AddPoints(PointWorth);
-                Destroy(gameObject);
-            }
+           RoundManager.Instance.ZombieDied();
+           PointsManager.Instance.AddPoints(PointWorth);
+           Destroy(gameObject);
         }
+        
 
 
 
