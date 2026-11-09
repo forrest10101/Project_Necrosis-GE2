@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
     private float NextRegen = 0f;
     private float RegenCD = 1f;
     private float RegenRate = 1f;
-    private float CombatCD= 5f;
+    private float CombatCD = 5f;
     private float CombatLock = 0f;
 
 
@@ -87,7 +87,7 @@ public class PlayerHealth : MonoBehaviour
     void Regeneration()
     {
 
-       
+
         if (Time.time >= NextRegen && CurrentHealth < MaxHealth && Time.time >= CombatLock)
         {
             NextRegen = Time.time + RegenCD;
@@ -100,5 +100,18 @@ public class PlayerHealth : MonoBehaviour
 
             HealthBar();
         }
+    }
+    public void ApplyHealingSpeed(float multiplier)
+    {
+        RegenCD /= Mathf.Max(1f, multiplier);
+        NextRegen = Mathf.Min(NextRegen, Time.time + RegenCD);
+    }
+
+    public void AddMaximumHealth(float amount)
+    {
+        amount = Mathf.Max(0f, amount);
+        MaxHealth += amount;
+        CurrentHealth = Mathf.Min(CurrentHealth + amount, MaxHealth);
+        HealthBar();
     }
 }

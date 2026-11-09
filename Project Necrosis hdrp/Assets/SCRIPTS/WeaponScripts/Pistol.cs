@@ -8,8 +8,8 @@ public class Pistol : MonoBehaviour
     public static Pistol Instance;
 
     private int CurrentAmmo = 12;
-    private int MaxAmmo = 12 ;
-    private int Ammo = 999 ;
+    private int MaxAmmo = 12;
+    private int Ammo = 999;
     public float FireRate = 1.5f;
     private float FireTime = 0f;
     private float Damage = 2.5f;
@@ -53,17 +53,17 @@ public class Pistol : MonoBehaviour
         {
 
             GameObject spawnedBullet = Instantiate(
-                Bullet, 
-                BulletPoint.position, 
+                Bullet,
+                BulletPoint.position,
                 BulletPoint.rotation
             );
 
-           BulletScript bulletScript =
-           spawnedBullet.GetComponent<BulletScript>();
+            BulletScript bulletScript =
+            spawnedBullet.GetComponent<BulletScript>();
 
             if (bulletScript != null)
             {
-                bulletScript.Damage = Damage;
+                bulletScript.Damage = Damage * (PerkSystem.Instance != null ? PerkSystem.Instance.DamageMultiplier : 1f);
             }
 
             FireTime = Time.time + FireRate;
@@ -72,7 +72,7 @@ public class Pistol : MonoBehaviour
 
             uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
 
-            
+
         }
     }
 
@@ -95,9 +95,9 @@ public class Pistol : MonoBehaviour
         Reloading = true;
 
         //if (reloadSound != null)
-         //   reloadSound.Play();
+        //   reloadSound.Play();
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.5f / (PerkSystem.Instance != null ? PerkSystem.Instance.ReloadSpeedMultiplier : 1f));
 
         int Used = MaxAmmo - CurrentAmmo;
 

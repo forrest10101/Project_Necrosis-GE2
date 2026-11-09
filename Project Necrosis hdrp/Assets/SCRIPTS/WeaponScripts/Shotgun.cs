@@ -70,7 +70,7 @@ public class Shotgun : MonoBehaviour
 
                 if (bulletScript != null)
                 {
-                    bulletScript.Damage = Damage;
+                    bulletScript.Damage = Damage * (PerkSystem.Instance != null ? PerkSystem.Instance.DamageMultiplier : 1f);
                 }
 
             }
@@ -106,7 +106,7 @@ public class Shotgun : MonoBehaviour
         //if (reloadSound != null)
         //   reloadSound.Play();
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.5f / (PerkSystem.Instance != null ? PerkSystem.Instance.ReloadSpeedMultiplier : 1f));
 
         int Used = MaxAmmo - CurrentAmmo;
 
