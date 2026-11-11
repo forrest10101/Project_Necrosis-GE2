@@ -21,6 +21,8 @@ public class Shotgun : MonoBehaviour
     public UIManager uiManager;
     AudioSource Fire;
 
+    [SerializeField] private GameObject uiImage;
+
     private void Awake()
     {
         Instance = this;
@@ -29,7 +31,13 @@ public class Shotgun : MonoBehaviour
     private void OnEnable()
     {
         uiManager.WeaponDisplay("Shotgun");
+        uiImage.SetActive(true);
         uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
+    }
+    private void OnDisable()
+    {
+        if (uiImage != null)
+            uiImage.SetActive(false);
     }
 
     void Start()

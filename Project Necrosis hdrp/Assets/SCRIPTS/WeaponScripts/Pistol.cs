@@ -20,6 +20,8 @@ public class Pistol : MonoBehaviour
     private bool Reloading = false;
     public UIManager uiManager;
 
+    [SerializeField] private GameObject uiImage;
+
     AudioSource Fire;
 
     private void Awake()
@@ -30,9 +32,14 @@ public class Pistol : MonoBehaviour
     private void OnEnable()
     {
         uiManager.WeaponDisplay("Pistol");
+        uiImage.SetActive(true);
         uiManager.SetAmmoText(CurrentAmmo, MaxAmmo);
     }
-
+    private void OnDisable()
+    {
+        if (uiImage != null)
+            uiImage.SetActive(false);
+    }
 
     void Start()
     {

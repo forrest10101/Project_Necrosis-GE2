@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Diagnostics;
 using UnityEngine.UI;
+using TMPro;
 
 
 //PlayerHealth, Written by Andrew Forrest
@@ -19,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
     private float RegenRate = 1f;
     private float CombatCD = 5f;
     private float CombatLock = 0f;
-
+    public TextMeshProUGUI healthText;
 
     private void Awake()
     {
@@ -83,6 +84,11 @@ public class PlayerHealth : MonoBehaviour
         {
             healthBar.maxValue = MaxHealth;
             healthBar.value = CurrentHealth;
+        }
+
+        if (healthText != null)
+        {
+            healthText.text = $"{Mathf.Max(0f, CurrentHealth):0} / {MaxHealth:0}";
         }
     }
 

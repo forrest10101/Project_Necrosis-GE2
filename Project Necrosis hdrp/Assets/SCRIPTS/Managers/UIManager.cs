@@ -13,6 +13,13 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI ammoText;
     public TextMeshProUGUI weaponText;
 
+    private string objectiveTemplate;
+
+    private void Awake()
+    {
+        if (objectiveText != null)
+            objectiveTemplate = objectiveText.text;
+    }
 
     void Start()
     {
@@ -25,14 +32,14 @@ public class UIManager : MonoBehaviour
     {
         if (pointText != null)
         {
-            pointText.text = ("Points: " + Point);
+            pointText.text = ("$ " + Point);
         }
     }
 
     public void SetObjective(string text)
     {
         if (objectiveText != null)
-            objectiveText.text = text;
+            objectiveText.text = objectiveTemplate.Replace("{objective text}", text);
     }
 
     public void SetInteractText(string text)
@@ -50,13 +57,13 @@ public class UIManager : MonoBehaviour
     public void SetRoundText(int Round)
     {
         if (roundText != null)
-            roundText.text = ("Round: " + Round);
+            roundText.text = ("ROUND " + Round);
     }
 
     public void WeaponDisplay(string Weapon)
     {
         if (weaponText != null)
-            weaponText.text = ("Weapon: " + Weapon);
+            weaponText.text = (Weapon);
     }
 
     public void SetAmmoText(int currentAmmo, int maxAmmo)

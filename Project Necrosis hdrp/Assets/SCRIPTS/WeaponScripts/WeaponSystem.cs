@@ -15,6 +15,10 @@ public class WeaponSystem : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        EquipWeapon(Equipped);
+    }
 
     public void WeaponUnlock(int weapon)
     {
