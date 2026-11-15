@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 30b5e7f407b0d74439a2bf96351d6de3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 344708
+  packageName: Audio Manager - Simple Sound System
+  packageVersion: 1.0
+  assetPath: Assets/DZAssets/AudioManager/Scenes/AudioManager_Demo.unity
+  uploadId: 818902

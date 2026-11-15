@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7639ba9458a49ab4b83494d32d85c2c3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 344708
+  packageName: Audio Manager - Simple Sound System
+  packageVersion: 1.0
+  assetPath: Assets/DZAssets/AudioManager/ScriptableObjects/SFX Data Sample.asset
+  uploadId: 818902

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DZAssets.AudioManager;
 
 [RequireComponent(typeof(Button))]
 public class ButtonCode : MonoBehaviour,
@@ -55,12 +56,18 @@ public class ButtonCode : MonoBehaviour,
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        AudioManager.Instance.PlaySFX("ButtonHoverSound");                                              // Play button sound when click
         hovered = true;                                                                                 // Activate hover features if mouse is on button
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         hovered = false;                                                                                // Deactivate if mouse isn't on button
+    }
+
+    public void PlayButtonSound()
+    {
+        AudioManager.Instance.PlaySFX("ButtonSound");                                                   // Play button sound when click
     }
 
     private void OnDisable()
