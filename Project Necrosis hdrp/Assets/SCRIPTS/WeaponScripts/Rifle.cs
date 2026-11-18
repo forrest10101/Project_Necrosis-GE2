@@ -21,10 +21,15 @@ public class Rifle : MonoBehaviour
     public UIManager uiManager;
     AudioSource Fire;
 
+    private WeaponSway weaponSway;
+    private WeaponAudio weaponAudio;
+
     [SerializeField] private GameObject uiImage;
     private void Awake()
     {
         Instance = this;
+        weaponSway = GetComponent<WeaponSway>();
+        weaponAudio = GetComponent<WeaponAudio>();
     }
 
     private void OnEnable()
@@ -37,6 +42,8 @@ public class Rifle : MonoBehaviour
     {
         if (uiImage != null)
             uiImage.SetActive(false);
+
+        Reloading = false;                                              // Cancel reload when holstered
     }
 
     void Start()
@@ -47,6 +54,10 @@ public class Rifle : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f || Reloading ||
+            (WeaponSystem.Instance != null && WeaponSystem.Instance.IsSwitching))
+            return;
+
         Shooting();
         Reloader();
     }
@@ -71,6 +82,9 @@ public class Rifle : MonoBehaviour
             {
                 bulletScript.Damage = Damage * (PerkSystem.Instance != null ? PerkSystem.Instance.DamageMultiplier : 1f);
             }
+
+            weaponSway.PlayShot();
+            weaponAudio?.PlayShot();       // Play once per shot
 
             FireTime = Time.time + FireRate;
             //Fire.Play();
@@ -101,7 +115,13 @@ public class Rifle : MonoBehaviour
         //if (reloadSound != null)
         //   reloadSound.Play();
 
-        yield return new WaitForSeconds(1.5f / (PerkSystem.Instance != null ? PerkSystem.Instance.ReloadSpeedMultiplier : 1f));
+        float reloadTime = 1.5f / (PerkSystem.Instance != null
+            ? PerkSystem.Instance.ReloadSpeedMultiplier : 1f);
+
+        weaponSway.PlayReload(reloadTime);
+        weaponAudio?.PlayReload();     // Play when reload starts
+
+        yield return new WaitForSeconds(reloadTime);
 
         int Used = MaxAmmo - CurrentAmmo;
 

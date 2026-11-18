@@ -17,3 +17,33 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 3fe106aeed06d8e4198efad49664d0a3, type: 3}
   - nameAudio: ButtonHoverSound
     audioClip: {fileID: 8300000, guid: 864a10926a921fe46b12da23893b84c6, type: 3}
+  - nameAudio: Pistol1
+    audioClip: {fileID: 8300000, guid: 99348524f0ef5b3469b6d1976f17370c, type: 3}
+  - nameAudio: Pistol2
+    audioClip: {fileID: 8300000, guid: 0910b552636052c42a5d5fb6d168dc27, type: 3}
+  - nameAudio: Pistol3
+    audioClip: {fileID: 8300000, guid: 8115c336b0fa59f41b1cb0af599a2271, type: 3}
+  - nameAudio: PistolReload
+    audioClip: {fileID: 8300000, guid: 3de7713f7dd4a144fb85bdf1efdc1ead, type: 3}
+  - nameAudio: PistolEquip
+    audioClip: {fileID: 8300000, guid: 2b0c5653779f53f47bdfef4344b73cd6, type: 3}
+  - nameAudio: AR1
+    audioClip: {fileID: 8300000, guid: 7a1788b10a259394b9019d21bef463ae, type: 3}
+  - nameAudio: AR2
+    audioClip: {fileID: 8300000, guid: 4ae73664f9fa52f41b51a2e050901696, type: 3}
+  - nameAudio: AR3
+    audioClip: {fileID: 8300000, guid: ada2ae050ed4f114eba3fab31db4313e, type: 3}
+  - nameAudio: ARReload
+    audioClip: {fileID: 8300000, guid: 08edb2bef8ffb1f4a8de1858af2f36fb, type: 3}
+  - nameAudio: AREquip
+    audioClip: {fileID: 8300000, guid: 43c1734fa36d1674caeee38cab0f249e, type: 3}
+  - nameAudio: Shotgun1
+    audioClip: {fileID: 8300000, guid: a42a25bfe713e63498febabb408fceea, type: 3}
+  - nameAudio: Shotgun2
+    audioClip: {fileID: 8300000, guid: b322a4e6a9f59b04a82a3336dde02871, type: 3}
+  - nameAudio: Shotgun3
+    audioClip: {fileID: 8300000, guid: ae2d2db46850b7c47ab85240cdc448f9, type: 3}
+  - nameAudio: ShotgunReload
+    audioClip: {fileID: 8300000, guid: 0131125a5e370054d8c35f9d76872305, type: 3}
+  - nameAudio: ShotgunEquip
+    audioClip: {fileID: 8300000, guid: 22eeebf8ebfe4fe41b78c2508d1f8ea8, type: 3}
