@@ -20,6 +20,9 @@ namespace DZAssets.AudioManager
         [SerializeField] private bool useLog = true;
         [SerializeField, Min(0f)] private float bgmFadeDuration = 1f;
 
+        public float BGMVolume => bgmVolume;
+        public float SFXVolume => sfxAudioSource.volume;
+
         private AudioSource secondaryBgmSource;
         private AudioSource activeBgmSource;
         private float bgmVolume;

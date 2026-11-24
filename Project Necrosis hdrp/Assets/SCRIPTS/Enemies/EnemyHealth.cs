@@ -10,7 +10,7 @@ public class EnemyHealth : MonoBehaviour
     private float CurrentHealth;
     private int PointWorth = 5;
 
-    
+    private bool isDead;
 
     private void Awake()
     {
@@ -37,28 +37,63 @@ public class EnemyHealth : MonoBehaviour
         
     }
 
-    
-
 
     public void EnemyDamage(float Damage)
     {
+        if (isDead)
+            return;
 
         CurrentHealth -= Damage;
-           
-        if (CurrentHealth <= 0)
+
+        if (CurrentHealth > 0f)
+            return;
+
+        isDead = true;
+
+        RoundManager.Instance.ZombieDied();
+        PointsManager.Instance.AddPoints(PointWorth);
+
+        Animator animator = GetComponentInChildren<Animator>();
+
+        if (animator == null || animator.runtimeAnimatorController == null)
         {
-           RoundManager.Instance.ZombieDied();
-           PointsManager.Instance.AddPoints(PointWorth);
-           Destroy(gameObject);
+            Destroy(gameObject);
+            return;
         }
-        
 
+        if (TryGetComponent(out ZombieAI zombieAI))
+            zombieAI.enabled = false;
 
+        if (TryGetComponent(out UnityEngine.AI.NavMeshAgent agent))
+            agent.enabled = false;
 
+        if (TryGetComponent(out Collider hitCollider))
+            hitCollider.enabled = false;
 
+        animator.SetTrigger("Die");
+        StartCoroutine(DespawnBody(animator.transform));
     }
 
-    
+    private System.Collections.IEnumerator DespawnBody(Transform model)
+    {
+        // Let the fall finish, then leave the body on the ground.
+        yield return new WaitForSeconds(1.3f + 3f);
 
-    
+        const float sinkDuration = 0.6f;
+        const float sinkDistance = 0.8f;
+
+        Vector3 start = model.position;
+        Vector3 end = start + Vector3.down * sinkDistance;
+        float elapsed = 0f;
+
+        while (elapsed < sinkDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.SmoothStep(0f, 1f, elapsed / sinkDuration);
+            model.position = Vector3.Lerp(start, end, progress);
+            yield return null;
+        }
+
+        Destroy(gameObject);
+    }
 }
