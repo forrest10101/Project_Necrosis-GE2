@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6001759347074576980}
   - component: {fileID: 2612900326631863}
+  - component: {fileID: 4141685543663874391}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -51,6 +52,24 @@ MonoBehaviour:
   bgmAudioSource: {fileID: 3576757838115915649}
   sfxAudioSource: {fileID: 3241152682216141682}
   useLog: 1
+  bgmFadeDuration: 1
+--- !u!114 &4141685543663874391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372210710331293307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbdb1a9499ac09943ae47af270564bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmData: {fileID: 11400000, guid: 1720107ba265a104abca9f5359ddb3b9, type: 2}
+  gameplayTracks:
+  - GameMusic1
+  - GameMusic2
+  - GameMusic3
 --- !u!1 &4954656188778296147
 GameObject:
   m_ObjectHideFlags: 0

@@ -5236,9 +5236,17 @@ PrefabInstance:
       objectReference: {fileID: 1090437071}
     - target: {fileID: 2252504584528897140, guid: 691d201409042b143af4574240386e30, type: 3}
       propertyPath: m_text
-      value: '<font=RAJDHANI-BOLD>OBJECTIVE</font>
+      value: '<font="RAJDHANI-BOLD">OBJECTIVE</font>
 
         {objective text}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252504584528897140, guid: 691d201409042b143af4574240386e30, type: 3}
+      propertyPath: m_isRichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252504584528897140, guid: 691d201409042b143af4574240386e30, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2252504584528897140, guid: 691d201409042b143af4574240386e30, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -40544,7 +40552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4248081252088031897, guid: 1f94f0bd0e974eb4bbb6cd51e62011ca, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

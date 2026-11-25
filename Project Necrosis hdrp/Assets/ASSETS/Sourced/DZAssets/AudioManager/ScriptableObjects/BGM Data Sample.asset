@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a41af8c48d4fd438bc0550b46bd30a, type: 3}
   m_Name: BGM Data Sample
   m_EditorClassIdentifier: 
-  audioList: []
+  audioList:
+  - nameAudio: MenuMusic
+    audioClip: {fileID: 8300000, guid: e7350b1515d0e2d418e77380a02475c8, type: 3}
+  - nameAudio: GameMusic1
+    audioClip: {fileID: 8300000, guid: fbb8f7b33d6d65342824f80ff6125744, type: 3}
+  - nameAudio: GameMusic2
+    audioClip: {fileID: 8300000, guid: 360da0993ef8a994fa993b506cddb8ee, type: 3}
+  - nameAudio: GameMusic3
+    audioClip: {fileID: 8300000, guid: a49706c2809f2de47b37111b15c1a99f, type: 3}
