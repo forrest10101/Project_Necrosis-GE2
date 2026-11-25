@@ -70,6 +70,9 @@ MonoBehaviour:
   sliceDistributionUniformity:
     m_OverrideState: 0
     m_Value: 0.75
+  multipleScatteringIntensity:
+    m_OverrideState: 0
+    m_Value: 0
   m_FogControlMode:
     m_OverrideState: 0
     m_Value: 0
@@ -114,10 +117,10 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   upperHemisphereLuxValue:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 4.0323935
   upperHemisphereLuxColor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0.39084613, y: 0.42422825, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
@@ -157,6 +160,12 @@ MonoBehaviour:
       customValue: 100
       additiveValue: 0
       multiplyValue: 1
+  sunInitialRotation:
+    m_OverrideState: 0
+    m_Value: -Infinity
+  lockSun:
+    m_OverrideState: 0
+    m_Value: 0
   enableBackplate:
     m_OverrideState: 0
     m_Value: 0
@@ -340,6 +349,9 @@ MonoBehaviour:
     opacityA:
       m_OverrideState: 1
       m_Value: 0.29
+    altitude:
+      m_OverrideState: 0
+      m_Value: 2000
     rotation:
       m_OverrideState: 1
       m_Value: 353
@@ -378,6 +390,9 @@ MonoBehaviour:
     thickness:
       m_OverrideState: 1
       m_Value: 0.608
+    ambientProbeDimmer:
+      m_OverrideState: 0
+      m_Value: 1
     castShadows:
       m_OverrideState: 1
       m_Value: 1
@@ -397,6 +412,9 @@ MonoBehaviour:
     opacityA:
       m_OverrideState: 1
       m_Value: 0
+    altitude:
+      m_OverrideState: 0
+      m_Value: 2000
     rotation:
       m_OverrideState: 1
       m_Value: 0
@@ -435,6 +453,9 @@ MonoBehaviour:
     thickness:
       m_OverrideState: 1
       m_Value: 0.5
+    ambientProbeDimmer:
+      m_OverrideState: 0
+      m_Value: 1
     castShadows:
       m_OverrideState: 1
       m_Value: 0
@@ -692,6 +713,18 @@ MonoBehaviour:
   skyAmbientMode:
     m_OverrideState: 0
     m_Value: 1
+  planetRadius:
+    m_OverrideState: 0
+    m_Value: 6378.1
+  renderingSpace:
+    m_OverrideState: 0
+    m_Value: 1
+  centerMode:
+    m_OverrideState: 0
+    m_Value: 0
+  planetCenter:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: -6378.1, z: 0}
   windOrientation:
     m_OverrideState: 1
     m_Value: 41
@@ -701,6 +734,7 @@ MonoBehaviour:
   fogType:
     m_OverrideState: 1
     m_Value: 0
+  m_Version: 1
 --- !u!114 &9117986143770047694
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -746,6 +780,9 @@ MonoBehaviour:
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
+  specularOcclusion:
+    m_OverrideState: 0
+    m_Value: 0.5
   occluderMotionRejection:
     m_OverrideState: 0
     m_Value: 1
