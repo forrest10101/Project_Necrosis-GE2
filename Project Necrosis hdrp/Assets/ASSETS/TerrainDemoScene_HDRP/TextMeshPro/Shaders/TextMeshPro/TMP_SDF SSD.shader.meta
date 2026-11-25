@@ -12,6 +12,6 @@ AssetOrigin:
   productId: 213198
   packageName: Unity Terrain - HDRP Demo Scene
   packageVersion: 1.0.3
-  assetPath: Assets/TerrainDemoScene_HDRP/TextMeshPro/Shaders/TextMeshPro/TMP_SDF
+  assetPath: Assets/ASSETS/TerrainDemoScene_HDRP/TextMeshPro/Shaders/TextMeshPro/TMP_SDF
     SSD.shader
   uploadId: 727864

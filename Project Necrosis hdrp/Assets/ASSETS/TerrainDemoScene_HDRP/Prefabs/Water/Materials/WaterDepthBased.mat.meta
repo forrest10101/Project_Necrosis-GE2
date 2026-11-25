@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 213198
   packageName: Unity Terrain - HDRP Demo Scene
   packageVersion: 1.0.3
-  assetPath: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Materials/WaterDepthBased.mat
+  assetPath: Assets/ASSETS/TerrainDemoScene_HDRP/Prefabs/Water/Materials/WaterDepthBased.mat
   uploadId: 727864

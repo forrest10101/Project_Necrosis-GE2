@@ -170,7 +170,7 @@ MonoBehaviour:
     x: 2154
     y: 104
     width: 3378
-    height: 3309
+    height: 3248
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3063,7 +3063,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"e07e1c4a20ad77547bb9ffbe108d2a19","type":3}}'
+      m_SerializableObject: 
     m_Space: -1
   m_Property:
     name: attributeMap
@@ -7504,7 +7504,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"e07e1c4a20ad77547bb9ffbe108d2a19","type":3}}'
+      m_SerializableObject: 
     m_Space: -1
   m_Property:
     name: attributeMap

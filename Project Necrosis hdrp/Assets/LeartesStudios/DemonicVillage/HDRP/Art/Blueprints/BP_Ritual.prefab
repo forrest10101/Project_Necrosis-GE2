@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7516519262092410908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7516519262092410909}
+  m_Layer: 0
+  m_Name: BP_Ritual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7516519262092410909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7516519262092410908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7516519262439235464}
+  - {fileID: 7516519262439235450}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7516519262095281152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7516519262092410909}
+    m_Modifications:
+    - target: {fileID: 1031820153, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_Name
+      value: BP_Ritual_C_UAID_2CF05D815C9D67F201_1170365909_SM_Ritual01_2_93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820154, guid: abc00000000010852785376507780845, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000010852785376507780845, type: 3}
+--- !u!4 &7516519262439235450 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031820154, guid: abc00000000010852785376507780845,
+    type: 3}
+  m_PrefabInstance: {fileID: 7516519262095281152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7516519262095281163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7516519262092410909}
+    m_Modifications:
+    - target: {fileID: 1031820162, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_Name
+      value: BP_Ritual_C_UAID_2CF05D815C9D67F201_1170365909_SM_Ritual02_3_94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031820163, guid: abc00000000003608597003885336710, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000003608597003885336710, type: 3}
+--- !u!4 &7516519262439235464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031820163, guid: abc00000000003608597003885336710,
+    type: 3}
+  m_PrefabInstance: {fileID: 7516519262095281163}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,3285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7921702847239174746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472623447087019060}
+  m_Layer: 0
+  m_Name: BPP_PLA_Church (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472623447087019060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7921702847239174746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1774990351107517886}
+  - {fileID: 2344889680792222426}
+  - {fileID: 1766852950798543193}
+  - {fileID: 1079947670706134287}
+  - {fileID: 5028635800846474000}
+  - {fileID: 6940823813835712275}
+  - {fileID: 2477522928377080114}
+  - {fileID: 6849509083247078586}
+  - {fileID: 6717641809475374}
+  - {fileID: 5611040909296281379}
+  - {fileID: 8789430436023607771}
+  - {fileID: 5078538770703944853}
+  - {fileID: 6619670765905331960}
+  - {fileID: 2058050429519458698}
+  - {fileID: 2710967247562342243}
+  - {fileID: 8142010686299283356}
+  - {fileID: 6404051971617912325}
+  - {fileID: 4021532220531039590}
+  - {fileID: 8820831115087127039}
+  - {fileID: 7361305071091207399}
+  - {fileID: 6709669732712509623}
+  - {fileID: 959585691117785980}
+  - {fileID: 1656154916238804836}
+  - {fileID: 1885870088220333259}
+  - {fileID: 656193291171050281}
+  - {fileID: 2375109955207792489}
+  - {fileID: 8128290345149983632}
+  - {fileID: 8083926908346067273}
+  - {fileID: 8398719940525237368}
+  - {fileID: 3232020228013879834}
+  - {fileID: 5017558927392313030}
+  - {fileID: 6923174268678460305}
+  - {fileID: 7868234626854832144}
+  - {fileID: 7696273490140210091}
+  - {fileID: 3357895381445659394}
+  - {fileID: 6441439064925730145}
+  - {fileID: 6131279206148553251}
+  - {fileID: 4423060498628146905}
+  - {fileID: 996322339513380775}
+  - {fileID: 1610536272991726771}
+  - {fileID: 4351016249795925709}
+  - {fileID: 1781677988690149318}
+  - {fileID: 7638444669228365688}
+  - {fileID: 3610665499546818466}
+  - {fileID: 1835827398304159562}
+  - {fileID: 1914194167709170148}
+  - {fileID: 5833899396272792980}
+  - {fileID: 5864301876681461736}
+  - {fileID: 6611798740951221376}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6717641859014733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance0_350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2054138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4180908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &6717641809475374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 6717641859014733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &656193291397542050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance4_334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9641914
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0499258
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &656193291171050281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 656193291397542050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &959585691327500535
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance7_337
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4101311
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4154058
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &959585691117785980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 959585691327500535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &996322339739872754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799380, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM6_Instance1_320
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.8457978
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.33874536
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008074377080189098881, type: 3}
+--- !u!4 &996322339513380775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799381, guid: abc00000000008074377080189098881,
+    type: 3}
+  m_PrefabInstance: {fileID: 996322339739872754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1079947671454026348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance5_355
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9641914
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0499258
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &1079947670706134287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 1079947671454026348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1610536273436323558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799380, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM6_Instance0_319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9129764
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0292972
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008074377080189098881, type: 3}
+--- !u!4 &1610536272991726771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799381, guid: abc00000000008074377080189098881,
+    type: 3}
+  m_PrefabInstance: {fileID: 1610536273436323558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1656154916163306735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance6_336
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2895143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7314448
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &1656154916238804836 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 1656154916163306735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1766852951689051706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance6_356
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3260285
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.1020513
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &1766852950798543193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 1766852951689051706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1774990350628584157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance8_358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3486392
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.7835703
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &1774990351107517886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774990350628584157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1781677988513988063
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799320, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM4_Instance0_317
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.2153816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7500019
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9292002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799321, guid: abc00000000014897108127407647389, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000014897108127407647389, type: 3}
+--- !u!4 &1781677988690149318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799321, guid: abc00000000014897108127407647389,
+    type: 3}
+  m_PrefabInstance: {fileID: 1781677988513988063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1835827399056248940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031014181, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM1_Instance0_314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3437512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3437512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.9581337
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7600021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5202646
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014182, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159559}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159555}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159583}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159579}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[4].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159575}
+    - target: {fileID: 1031014183, guid: abc00000000010093996402365079737, type: 3}
+      propertyPath: m_LODs.Array.data[5].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1835827398304159571}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000010093996402365079737, type: 3}
+--- !u!23 &1835827398304159555 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014191, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1835827398304159559 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014187, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1835827398304159562 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031014182, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1835827398304159571 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014207, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1835827398304159575 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014203, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1835827398304159579 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014199, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1835827398304159583 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1031014195, guid: abc00000000010093996402365079737,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835827399056248940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1885870087222089536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance5_335
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.0848045
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7340083
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &1885870088220333259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885870087222089536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1914194167485854885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_Roof_ISM1_Instance3_200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.8750076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.93750095
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.8682075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.308241
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3265376
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.07338702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.1573786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4161979
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.89253885
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008038820301270369348, type: 3}
+--- !u!4 &1914194167709170148 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1030982977, guid: abc00000000008038820301270369348,
+    type: 3}
+  m_PrefabInstance: {fileID: 1914194167485854885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2058050429030034690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019655, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM14_Instance0_345
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.1158743
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.14966
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000005647431492050246861, type: 3}
+--- !u!4 &2058050429519458698 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019656, guid: abc00000000005647431492050246861,
+    type: 3}
+  m_PrefabInstance: {fileID: 2058050429030034690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2344889680311184825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance7_357
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46925217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.099488
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &2344889680792222426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 2344889680311184825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2375109955283289314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance3_333
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3486392
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.7835703
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &2375109955207792489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 2375109955283289314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2477522928728096337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance2_352
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.0848045
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7340083
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &2477522928377080114 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 2477522928728096337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2710967247112757312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031020322, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM13_Instance0_344
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.530945
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.408082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031020323, guid: abc00000000013629610818931005044, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000013629610818931005044, type: 3}
+--- !u!4 &2710967247562342243 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031020323, guid: abc00000000013629610818931005044,
+    type: 3}
+  m_PrefabInstance: {fileID: 2710967247112757312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3232020226993350758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019131, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM9_Instance3_329
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.36335
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0749526
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008494375966170329487, type: 3}
+--- !u!4 &3232020228013879834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019132, guid: abc00000000008494375966170329487,
+    type: 3}
+  m_PrefabInstance: {fileID: 3232020226993350758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3357895380548872323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031021440, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM7_Instance2_324
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.115785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.1338553
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.010002136
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.299684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000002916965375919811594, type: 3}
+--- !u!4 &3357895381445659394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031021441, guid: abc00000000002916965375919811594,
+    type: 3}
+  m_PrefabInstance: {fileID: 3357895380548872323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3610665500410844797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799262, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM2_Instance0_315
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.36335
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0749526
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799263, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799276, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799276, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e23c420f8abae3f439a55c5fa8498e93, type: 2}
+    - target: {fileID: 1031799280, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799280, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e23c420f8abae3f439a55c5fa8498e93, type: 2}
+    - target: {fileID: 1031799284, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799284, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e23c420f8abae3f439a55c5fa8498e93, type: 2}
+    - target: {fileID: 1031799288, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799288, guid: abc00000000003704891634171156243, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e23c420f8abae3f439a55c5fa8498e93, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000003704891634171156243, type: 3}
+--- !u!4 &3610665499546818466 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799263, guid: abc00000000003704891634171156243,
+    type: 3}
+  m_PrefabInstance: {fileID: 3610665500410844797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4021532220438765198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799783, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM12_Instance1_341
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.191684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8100014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.988282
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000001497478416529335407, type: 3}
+--- !u!4 &4021532220531039590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799784, guid: abc00000000001497478416529335407,
+    type: 3}
+  m_PrefabInstance: {fileID: 4021532220438765198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4351016248780903674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799350, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM5_Instance0_318
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7923596
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7132576
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799351, guid: abc00000000008423892293976771395, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008423892293976771395, type: 3}
+--- !u!4 &4351016249795925709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799351, guid: abc00000000008423892293976771395,
+    type: 3}
+  m_PrefabInstance: {fileID: 4351016248780903674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4423060499106296972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799380, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM6_Instance2_321
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6045713
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7069099
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799381, guid: abc00000000008074377080189098881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008074377080189098881, type: 3}
+--- !u!4 &4423060498628146905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799381, guid: abc00000000008074377080189098881,
+    type: 3}
+  m_PrefabInstance: {fileID: 4423060499106296972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5017558927340672186
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019131, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM9_Instance2_328
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.483963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3909922
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008494375966170329487, type: 3}
+--- !u!4 &5017558927392313030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019132, guid: abc00000000008494375966170329487,
+    type: 3}
+  m_PrefabInstance: {fileID: 5017558927340672186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5028635800123739251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance4_354
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4101311
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4154058
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &5028635800846474000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 5028635800123739251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5078538771288264733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019655, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM14_Instance2_347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.424277
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.472047
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000005647431492050246861, type: 3}
+--- !u!4 &5078538770703944853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019656, guid: abc00000000005647431492050246861,
+    type: 3}
+  m_PrefabInstance: {fileID: 5078538771288264733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5611040908439862187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019655, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM14_Instance4_349
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.1604443
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0454097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000005647431492050246861, type: 3}
+--- !u!4 &5611040909296281379 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019656, guid: abc00000000005647431492050246861,
+    type: 3}
+  m_PrefabInstance: {fileID: 5611040908439862187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5833899395686803669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_Roof_ISM1_Instance2_199
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.875005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.9375017
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.4790325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.115406
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.47900295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4161979
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.89253885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07338702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1573786
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008038820301270369348, type: 3}
+--- !u!4 &5833899396272792980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1030982977, guid: abc00000000008038820301270369348,
+    type: 3}
+  m_PrefabInstance: {fileID: 5833899395686803669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5864301877536146089
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_Roof_ISM1_Instance1_198
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.875005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.9375017
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.866602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.249386
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2036142
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4161979
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.89253885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07338702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1573786
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008038820301270369348, type: 3}
+--- !u!4 &5864301876681461736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1030982977, guid: abc00000000008038820301270369348,
+    type: 3}
+  m_PrefabInstance: {fileID: 5864301877536146089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6131279205126445474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031021440, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM7_Instance0_322
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.115785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.912365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.010002136
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.41333103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000002916965375919811594, type: 3}
+--- !u!4 &6131279206148553251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031021441, guid: abc00000000002916965375919811594,
+    type: 3}
+  m_PrefabInstance: {fileID: 6131279205126445474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6404051972347721197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799783, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM12_Instance2_342
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.56709033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8100014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6202395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000001497478416529335407, type: 3}
+--- !u!4 &6404051971617912325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799784, guid: abc00000000001497478416529335407,
+    type: 3}
+  m_PrefabInstance: {fileID: 6404051972347721197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6441439065648453344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031021440, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM7_Instance1_323
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0312498
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2812499
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.722435
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.472291
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021441, guid: abc00000000002916965375919811594, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000002916965375919811594, type: 3}
+--- !u!4 &6441439064925730145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031021441, guid: abc00000000002916965375919811594,
+    type: 3}
+  m_PrefabInstance: {fileID: 6441439065648453344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6611798741436746177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_Roof_ISM1_Instance0_197
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982976, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.8750076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.93750095
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2557807
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.442223
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.35607958
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.07338702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.1573786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4161979
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030982977, guid: abc00000000008038820301270369348, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.89253885
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008038820301270369348, type: 3}
+--- !u!4 &6611798740951221376 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1030982977, guid: abc00000000008038820301270369348,
+    type: 3}
+  m_PrefabInstance: {fileID: 6611798741436746177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6619670765281696368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019655, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM14_Instance1_346
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.236491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.465699
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000005647431492050246861, type: 3}
+--- !u!4 &6619670765905331960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019656, guid: abc00000000005647431492050246861,
+    type: 3}
+  m_PrefabInstance: {fileID: 6619670765281696368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6709669733190660924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance8_338
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2054138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4180908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &6709669732712509623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 6709669733190660924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6849509083732835289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance1_351
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2895143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7314448
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &6849509083247078586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 6849509083732835289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6923174268897348077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019131, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM9_Instance1_327
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.033585522
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.34521487
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008494375966170329487, type: 3}
+--- !u!4 &6923174268678460305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019132, guid: abc00000000008494375966170329487,
+    type: 3}
+  m_PrefabInstance: {fileID: 6923174268897348077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6940823814323040368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031018338, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM15_Instance3_353
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5533586
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.7861333
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031018339, guid: abc00000000004247742818156101734, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000004247742818156101734, type: 3}
+--- !u!4 &6940823813835712275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031018339, guid: abc00000000004247742818156101734,
+    type: 3}
+  m_PrefabInstance: {fileID: 6940823814323040368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7361305071412860816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019382, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM11_Instance0_339
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2018976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.226319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019383, guid: abc00000000003684361017226964540, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000003684361017226964540, type: 3}
+--- !u!4 &7361305071091207399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019383, guid: abc00000000003684361017226964540,
+    type: 3}
+  m_PrefabInstance: {fileID: 7361305071412860816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7638444669409497930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031021617, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM3_Instance0_316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2018976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.226319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031021618, guid: abc00000000009958100039676643205, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000009958100039676643205, type: 3}
+--- !u!4 &7638444669228365688 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031021618, guid: abc00000000009958100039676643205,
+    type: 3}
+  m_PrefabInstance: {fileID: 7638444669409497930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7696273489558504547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031022535, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM8_Instance0_325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7923596
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7132576
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022536, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022561, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031022561, guid: abc00000000002948645142369930422, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: e23c420f8abae3f439a55c5fa8498e93, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000002948645142369930422, type: 3}
+--- !u!4 &7696273490140210091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031022536, guid: abc00000000002948645142369930422,
+    type: 3}
+  m_PrefabInstance: {fileID: 7696273489558504547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7868234627178582636
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019131, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM9_Instance0_326
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.7251925
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0228276
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019132, guid: abc00000000008494375966170329487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008494375966170329487, type: 3}
+--- !u!4 &7868234626854832144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019132, guid: abc00000000008494375966170329487,
+    type: 3}
+  m_PrefabInstance: {fileID: 7868234627178582636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8083926908840995522
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance1_331
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3260304
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.1020513
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &8083926908346067273 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 8083926908840995522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8128290345191925787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance2_332
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5533586
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.7861333
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &8128290345149983632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 8128290345191925787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8142010685452033140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799783, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM12_Instance3_343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5597644
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8100014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.77050734
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000001497478416529335407, type: 3}
+--- !u!4 &8142010686299283356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799784, guid: abc00000000001497478416529335407,
+    type: 3}
+  m_PrefabInstance: {fileID: 8142010685452033140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8398719940600735731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799690, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM10_Instance0_330
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46925217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00995636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.099488
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799691, guid: abc00000000008358360598154840703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000008358360598154840703, type: 3}
+--- !u!4 &8398719940525237368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799691, guid: abc00000000008358360598154840703,
+    type: 3}
+  m_PrefabInstance: {fileID: 8398719940600735731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8789430436880563539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031019655, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM14_Instance3_348
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.852039
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3677969
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.57357657
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.819152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031019656, guid: abc00000000005647431492050246861, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000005647431492050246861, type: 3}
+--- !u!4 &8789430436023607771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031019656, guid: abc00000000005647431492050246861,
+    type: 3}
+  m_PrefabInstance: {fileID: 8789430436880563539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8820831115447837207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1472623447087019060}
+    m_Modifications:
+    - target: {fileID: 1031799783, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_Name
+      value: BPP_PLA_Church_ISM12_Instance0_340
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.80099046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8100014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1385498
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98480767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.17364852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031799784, guid: abc00000000001497478416529335407, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abc00000000001497478416529335407, type: 3}
+--- !u!4 &8820831115087127039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1031799784, guid: abc00000000001497478416529335407,
+    type: 3}
+  m_PrefabInstance: {fileID: 8820831115447837207}
+  m_PrefabAsset: {fileID: 0}
