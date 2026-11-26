@@ -14,7 +14,7 @@ public class Rifle : MonoBehaviour
     private int Ammo = 999;
     public float FireRate = 0.3f;
     private float FireTime = 0f;
-    private float Damage = 8f;
+    private float Damage = 6f;
     public GameObject Bullet;
     public Transform BulletPoint;
     private bool Reloading = false;

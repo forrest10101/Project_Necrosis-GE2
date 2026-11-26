@@ -17,13 +17,13 @@ public class EnemyHealth : MonoBehaviour
         if (CompareTag("NormZombie"))
         {
             MaxHealth = 8;
-            PointWorth = 25;
+            PointWorth = 50;
         }
 
         else if (CompareTag("UpgradeZombie"))
         {
             MaxHealth = 15;
-            PointWorth = 50;
+            PointWorth = 75;
         }
 
         else if (CompareTag("TankZombie"))
