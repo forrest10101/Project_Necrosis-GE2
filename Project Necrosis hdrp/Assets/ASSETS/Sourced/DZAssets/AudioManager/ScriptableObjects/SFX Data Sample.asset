@@ -47,3 +47,11 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 0131125a5e370054d8c35f9d76872305, type: 3}
   - nameAudio: ShotgunEquip
     audioClip: {fileID: 8300000, guid: 22eeebf8ebfe4fe41b78c2508d1f8ea8, type: 3}
+  - nameAudio: PerkCollect
+    audioClip: {fileID: 8300000, guid: 137cde64f4feb2e468192eedbaa2c3e2, type: 3}
+  - nameAudio: FuseCollect
+    audioClip: {fileID: 8300000, guid: ab3d477e689b7c640a37efec61f5a150, type: 3}
+  - nameAudio: UpgradeSound
+    audioClip: {fileID: 8300000, guid: 08edb2bef8ffb1f4a8de1858af2f36fb, type: 3}
+  - nameAudio: PowerSound
+    audioClip: {fileID: 8300000, guid: b4eb0a451ba76f1479db1ffda0a4952c, type: 3}

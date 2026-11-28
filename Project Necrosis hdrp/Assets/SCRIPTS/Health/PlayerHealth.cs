@@ -32,12 +32,6 @@ public class PlayerHealth : MonoBehaviour
     {
         Regeneration();
 
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            PlayerDamage(1);
-        }
-
-
         if (Input.GetKeyDown(KeyCode.G))
         {
             GodMode = !GodMode;

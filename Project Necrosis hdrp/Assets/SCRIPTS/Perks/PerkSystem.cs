@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using DZAssets.AudioManager;
 
 // PERK SYSTEM, written by Evan Montgomery
 
@@ -103,6 +104,7 @@ public class PerkSystem : MonoBehaviour
         if (!perk.Apply(this)) return false;                                                        // Apply perk effect
 
         pointsManager.RemovePoints(perk.Cost);                                                      // Deduct purchase cost
+        AudioManager.Instance.PlaySFX("PerkCollect");                                               // Play collect sound
         owned.Add(perk.GetType());                                                                  // Record purchased perk
         if (perk.uiIcon != null) perk.uiIcon.SetActive(true);                                       // Show perk icon
         return true;                                                                                // Purchase successful

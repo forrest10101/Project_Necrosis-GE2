@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// CREDITS SCROLL, written by Evan Montgomery
 public class CreditsScroll : MonoBehaviour
 {
     [SerializeField] private RectTransform viewport;                            // Visible credits area

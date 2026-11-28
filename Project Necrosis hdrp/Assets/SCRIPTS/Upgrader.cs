@@ -1,6 +1,7 @@
-using UnityEngine;
-using System.Diagnostics;
+using DZAssets.AudioManager;
 using Microsoft.Win32;
+using System.Diagnostics;
+using UnityEngine;
 
 //Upgrader, Written by Andrew Forrest
 public class Upgrader : MonoBehaviour
@@ -58,11 +59,11 @@ public class Upgrader : MonoBehaviour
     {
         if (power.PowerOn && pointsManager.Points >= Cost)
         {
-            
 
             if (weaponSystem.Equipped == 0 && !PistolUpgraded)
             {
                 pistol.Upgrader();
+                AudioManager.Instance.PlaySFX("CollectSound");
                 PistolUpgraded = true;
                 pointsManager.RemovePoints(Cost);
             }
@@ -70,6 +71,7 @@ public class Upgrader : MonoBehaviour
             else if (weaponSystem.Equipped == 1 && !RifleUpgraded)
             {
                 rifle.Upgrader();
+                AudioManager.Instance.PlaySFX("CollectSound");
                 RifleUpgraded = true;
                 pointsManager.RemovePoints(Cost);
             }
@@ -77,6 +79,7 @@ public class Upgrader : MonoBehaviour
             else if (weaponSystem.Equipped == 2 && !ShotgunUpgraded) 
             {
                 shotgun.Upgrader();
+                AudioManager.Instance.PlaySFX("CollectSound");
                 ShotgunUpgraded = true;
                 pointsManager.RemovePoints(Cost);
             }

@@ -1,3 +1,4 @@
+using DZAssets.AudioManager;
 using System.Diagnostics;
 using UnityEngine;
 
@@ -45,7 +46,7 @@ public class Power : MonoBehaviour
 
     public void TurnPowerOn()
     {
-        
+        AudioManager.Instance.PlaySFX("PowerSound");
         PowerOn = true;
         uiManager.SetObjective("Survive");
         
@@ -55,6 +56,8 @@ public class Power : MonoBehaviour
     public void FuseCollect()
     { 
         Fuses ++;
+
+        AudioManager.Instance.PlaySFX("FuseCollect");
 
         if (Fuses == 2)
         {
